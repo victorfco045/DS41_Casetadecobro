@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainxml"
+    app:startDestination="@id/firstfragment">
+
+    <fragment
+        android:id="@+id/firstfragment"
+        android:name="mx.edu.a22311091.utilidades.FirstFragment"
+        android:label="fragment_firstfragment"
+        tools:layout="@layout/fragment_firstfragment" >
+        <action
+            android:id="@+id/action_firstfragment_to_secondfragment"
+            app:destination="@id/secondfragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/secondfragment"
+        android:name="mx.edu.a22311091.utilidades.SecondFragment"
+        android:label="fragment_secondfragment"
+        tools:layout="@layout/fragment_secondfragment" >
+        <action
+            android:id="@+id/action_secondfragment_to_threefragment"
+            app:destination="@id/threefragment">
+
+        </action>
+
+        <action
+            android:id="@+id/action_secondfragment_to_firstfragment"
+            app:destination="@id/firstfragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/threefragment"
+        android:name="mx.edu.a22311091.utilidades.ThreeFragment"
+        android:label="fragment_threefragment"
+        tools:layout="@layout/fragment_threefragment" >
+        <action
+            android:id="@+id/action_threefragment_to_firstfragment"
+            app:destination="@id/firstfragment" />
+    </fragment>
+
+
+
+</navigation>

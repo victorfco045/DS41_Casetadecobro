@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">Caseta de cobro</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+    <string name="login">Login</string>
+
+    <string name="go_to_first">Go to First</string>
+    <string name="Peaje">Peaje</string>
+    <string name="go_to_third">Go to Third</string>
+    <string name="go_to_list">Go to List</string>
+
+    <string-array name="casetas_options">
+        <item>Caseta Hermosillo</item>
+        <item>Caseta Nogales</item>
+        <item>Caseta Obregon</item>
+        <item>Caseta Guaymas</item>
+        <item>Caseta Magdalena</item>
+        <item>Caseta Navojoa</item>
+        <item>Caseta Puerto peñasco</item>
+        <item>Caseta San luis</item>
+        <item>Caseta Ures</item>
+    </string-array>
+    <string-array name="vehiculos_options">
+        <item>Carro </item>
+        <item>Moto</item>
+        <item>Camion</item>
+    </string-array>
+
+
+</resources>
